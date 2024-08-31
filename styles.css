@@ -1,0 +1,125 @@
+* {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    background-color: slategrey;
+}
+
+h1 {
+    font-family: SUSE, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+p.bold {
+    font-weight: 700;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+header {
+    margin: 20px 30% 20px 30%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    min-width: 145px;
+}
+
+header * {
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    padding-left: 0px;
+}
+
+nav li{
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+section {
+    margin: 20px 10% 20px 10%;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    min-width: 312px;
+}
+
+section * {
+    background-color: white;
+}
+
+div.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+div.element {
+    display: inline;
+    padding: 10px;
+    min-width: 25%;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+#eggplant,
+#eggplant * {
+    background-color: #42033D;
+    color: white;
+}
+
+#plum,
+#plum * {
+    background-color: #680E4B;
+    color: white;
+}
+
+#grape,
+#grape * {
+    background-color: #7C238C;
+    color: white;
+}
+
+#lavender,
+#lavender * {
+    background-color: #854798;
+}
+
+#steel,
+#steel * {
+    background-color: #7C72A0;
+}
+
+#suse * {
+    font-family: "SUSE", sans-serif;
+}
+
+#nanum * {
+    font-family: "Nanum Gothic Coding", monospace;
+}
+
+section li {
+    text-align: left;
+}
